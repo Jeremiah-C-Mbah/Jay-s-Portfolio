@@ -395,4 +395,6 @@ if ("IntersectionObserver" in window) {
       observer.observe(el);
     });
   });
+  window.history.scrollRestoration = "manual";
+  window.scrollTo(0, 0);
 }
